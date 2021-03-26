@@ -42,8 +42,15 @@ paginate = 5
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
     # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
+    lastModDisplay = "Last Updated"
+
+    custom_css = ["css/molokai.css","css/custom.css"]
 
     [languages.en.params.logo]
       logoText = "elmike"
       logoHomeLink = "/"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
